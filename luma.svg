@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="2400" height="500" viewBox="0 0 2400 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <rect width="100" height="500" class="cls-1"/>
+  <rect x="100" y="400" width="350" height="100" class="cls-1"/>
+  <rect x="750" y="400" width="300" height="100" class="cls-1"/>
+  <rect x="1000" width="100" height="500" class="cls-1"/>
+  <rect x="650" width="100" height="500" class="cls-1"/>
+  <rect x="1475" y="100" width="100" height="150" class="cls-1"/>
+  <rect x="1400" width="300" height="100" class="cls-1"/>
+  <rect x="1650" width="100" height="500" class="cls-1"/>
+  <rect x="1300" width="100" height="500" class="cls-1"/>
+  <rect x="1950" width="400" height="100" class="cls-1"/>
+  <rect x="2050" y="400" width="300" height="100" class="cls-1"/>
+  <rect x="2300" width="100" height="500" class="cls-1"/>
+  <rect x="1950" y="200" width="100" height="300" class="cls-1"/>
+  <rect x="1950" y="200" width="400" height="100" class="cls-1"/>
+</svg>
