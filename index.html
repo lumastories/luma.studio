@@ -3,7 +3,6 @@
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src='https://www.google.com/recaptcha/api.js'></script>
 <title>LUMA</title>
 </head>
 <body>
@@ -13,46 +12,6 @@
     <hr />
     <p><strong>LUMA, LLC</strong> is a full-service end-to-end digital design &amp; development studio. Our people specialize in crazy fast backends, gorgeous frontends and amazing stories.</p>
     <hr />
-    <div class="talk">
-    <h1>Let's talk.</h1>
-    <form action="https://formbotapp.com/SAdqEfi5JcCC44CLo1xvBwrF/default" method="POST" class="contact">
-    <input type="text" name="name" placeholder="Name" class="req">
-    <input type="email" name="email" placeholder="Email" class="req">
-	<select name="interest">
-      <option value="misc">All the skills!</option>
-      <option value="frontend">Frontend</option>
-      <option value="backend">Backend</option>
-      <option value="video">Video</option>
-      <option value="audio">Audio</option>
-	</select>
-    <textarea name="message" placeholder="Tell us about your project" class="req"></textarea>
-    <div id="seriously"></div>
-        <div class="g-recaptcha" data-sitekey="6LfOWyYUAAAAAImlIfFZ9YUu6ZkHBwC3FAgpPK0M"></div>
-    <input type="submit" value="Say hello" class="submit" onclick="return oops()">
-</form>
-    </div>
-<script>
-    function oops(){
-       var reqs = document.getElementsByClassName("req");
-       
-       var email = reqs.email.value != "";
-       var name = reqs.name.value != "";
-       var message = reqs.message.value != "";
-
-       if ( email && name && message )
-       {
-           return true;
-       } 
-       else 
-       {
-           document.getElementById("seriously").innerHTML = "<img src='need.png' />";
-           return false;
-       }
-       
-       console.log("oops"); 
-    }
-
-</script>
   </div>
 </body>
 </html>
