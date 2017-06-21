@@ -38,7 +38,7 @@ h1, h2, h3, p {
 	font-family: 'Source Code Pro', monospace;
 }
 
-input, select {
+input, select, .g-recaptcha {
     display:block;
     float:right;
 }
