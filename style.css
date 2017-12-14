@@ -1,16 +1,14 @@
-
-
 html, body{
   height: 100%;
 }
-body { 
+body {
             background-image: url("bg.png");
             background-position: center center;
             background-repeat:  no-repeat;
             background-attachment: fixed;
             background-size:  cover;
             background-color: #999;
-            color: #333; 
+            color: #333;
 }
 
 div, body{
@@ -34,7 +32,7 @@ div, body{
     max-width:250px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, center {
 	font-family: 'Source Code Pro', monospace;
 }
 
@@ -77,4 +75,42 @@ textarea {
     color:black;
 }
 
+
+
+.b1 {
+    background: rgba(101, 135, 161, 0.5);
+    color: white;
+}
+
+.b2 {
+    background: rgba(213, 140, 105, 0.5);
+    color: white;
+}
+
+.b3 {
+    background: rgba(101, 135, 161, 0.5);
+    color: white;
+}
+
+.b4 {
+    background: rgba(144, 169, 89, 0.5);
+    color: white;
+}
+
+.b5 {
+    background: rgba(80, 182, 208, 0.5);
+    color: white;
+}
+
+
+.tag {
+    padding: .3em;
+    margin: .4em .1em .4em .1em;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.tags {
+    margin-top:1em;
+}
 
